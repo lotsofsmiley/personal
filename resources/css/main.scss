@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* - color palette - */
+    $robin-egg-blue: rgba(80, 201, 206, 1);
+    $magnolia: rgba(241, 238, 251, 1);
+    $rich-black: rgba(2, 1, 16, 1);
+    $vista-blue: rgba(114, 161, 229, 1);
+    $bittersweet: rgba(255, 90, 95, 1);
+    /* ----------------- */
+
+    --main-bg-color: $rich-black;
+    --main-font-color: $magnolia;
+    --secondary-font-color: $rich-black;
+
+    --main-font-family: 'Oswald', sans-serif;
+    --secondary-font-family: 'Poiret One', cursive;~
+    --main-font-size: 16px;
+    
+}
