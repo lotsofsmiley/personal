@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* - color palette - */
+  --robin-egg-blue: rgba(80, 201, 206, 1);
+  --magnolia: rgba(241, 238, 251, 1);
+  --rich-black: rgba(2, 1, 28, 1);
+  --charcoal: #3a4b55ff;
+  --vista-blue: rgba(114, 161, 229, 1);
+  --bittersweet: rgba(255, 90, 95, 1);
+  /* ----------------- */
+  --dark-bg-color: var(--rich-black);
+  --white-bg-color: var(--magnolia);
+  --darker-main-bg-color: rgba(2, 1, 10, 1);
+  --white-font-color: var(--magnolia);
+  --dark-font-color: var(--rich-black);
+  --main-font-family: "Segoe UI", sans-serif;
+  --secondary-font-family: "Poiret One", cursive;
+  --main-font-size: 24px;
+  --main-font-weight: 200;
+}
+
+body {
+  color: var(--main-font-color);
+  font-family: var(--main-font-family);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+}
+
+/* Main banner */
+
+.main-banner-section {
+  background-color: var(--main-bg-color);
+  color: var(--secondary-font-color);
+  width: 100%;
+  height: 80vh;
+  
+}
+
+.main-banner-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-banner-title-container {
+  width: 60%;
+  height: 70vh;
+  background-color: var(--charcoal);
+  align-content: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  line-height: 1.10;}
+
+.main-banner-title {
+  font-family: var(--secondary-font-family);
+  margin-right: 2%;
+  padding: auto;
+  text-align: right;
+  font-size: 177px;
+  font-weight: 200;
+}
+
+.main-banner-title-extra {
+  font-family: var(--secondary-font-family);
+  font-weight: 200;
+  font-style: italic;
+}
+
+.main-banner-description-container {
+  width: 40%;
+  height: 80vh;
+}
+
+.main-banner-description {
+
+}
+
+/*             */
+
+/* Navbar */
+
+.navbar-section {
+  background-color: var(--darker-main-bg-color);
+  color: var(--secondary-font-color);
+  width: 100%;
+  height: 20vh
+}
+
+.navbar-container {
+
+}
+
+/*         */
+
